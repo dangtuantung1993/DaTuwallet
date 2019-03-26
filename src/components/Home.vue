@@ -4,21 +4,25 @@
             <li>
                 <div @click="ethereum">
                     <img src="../assets/img/eth.svg">
+
                 </div>
             </li>
             <li>
                 <div @click="neo">
                     <img src="../assets/img/neo.svg">
+
                 </div>
             </li>
             <li>
                 <div @click="bitcoin">
                     <img src="../assets/img/bitcoin.svg">
+
                 </div>
             </li>
             <li>
                 <div>
                     <img src="../assets/img/cybermile.svg">
+
                 </div>
             </li>
             <li>
