@@ -21,10 +21,11 @@ export default {
 
 <style>
   #app{
-    background: url("./assets/img/bg-01.svg") no-repeat center center ;
-    background-size: 100% 100%;
+    background: url("./assets/img/bg-01.svg") no-repeat;
+    background-size: cover;
 
   }
+  
   img {
     width: 20%;
     display: block;
