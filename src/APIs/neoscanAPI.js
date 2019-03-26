@@ -9,7 +9,7 @@ export const listneo = async (your_wallet) =>{
 
         })
         let responseJson = await response.json();
-        console.log('hehe',responseJson)
+        
 
         if (responseJson){
             return responseJson
