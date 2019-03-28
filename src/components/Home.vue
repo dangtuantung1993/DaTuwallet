@@ -1,5 +1,6 @@
 <template>
     <div class="container-fluid">
+        <Banner></Banner>
         <ul class="list-box">
             <li>
                 <div @click="ethereum">
@@ -42,8 +43,18 @@
 </template>
 
 <script>
+    import Banner from '../components/Banner'
     export default {
         name: "Home",
+        components:{
+            Banner
+        },
+        data() {
+            return {
+
+            }
+        },
+
         methods:{
             ethereum(){
                 this.$router.push('/eth')
@@ -53,7 +64,8 @@
             },
             bitcoin(){
                 this.$router.push('/btc')
-            }
+            },
+
         }
     }
 
