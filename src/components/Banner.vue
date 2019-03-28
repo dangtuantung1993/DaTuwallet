@@ -7,9 +7,9 @@
                 indicators
                 img-width="1024"
                 img-height="480">
-            <b-carousel-slide caption="" img-src="~../assets/img/banner/bg1-01.jpg" />
-            <b-carousel-slide caption="" img-src="~../assets/img/banner/bg1-02.jpg" />
-            <b-carousel-slide caption="" img-src="~../assets/img/banner/bg1-03.jpg" />
+            <b-carousel-slide caption="" img-src="~../assets/img/banner/bg-01.jpg" />
+            <b-carousel-slide caption="" img-src="~../assets/img/banner/bg-02.jpg" />
+            <b-carousel-slide caption="" img-src="~../assets/img/banner/bg-03.jpg" />
         </b-carousel>
     </div>
 </template>
