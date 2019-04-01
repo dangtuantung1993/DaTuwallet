@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <router-view></router-view>
+
   </div>
 </template>
 
@@ -21,14 +22,9 @@ export default {
 
 <style>
   #app{
-    background: url("./assets/img/bg-01.svg") no-repeat;
-    background-size: cover;
+
 
   }
   
-  img {
-    width: 20%;
-    display: block;
-    margin: 0 auto;
-  }
+
 </style>

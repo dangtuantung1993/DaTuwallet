@@ -101,7 +101,9 @@
     }
 
 </script>
+
 <style scoped>
+
     .logo {
         width: 70%;
         padding:20px 25px;

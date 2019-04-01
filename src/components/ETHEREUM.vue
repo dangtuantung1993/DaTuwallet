@@ -4,7 +4,7 @@
             <img src="../assets/img/eth.svg">
         </div>
        <div class="row">
-            <div class="col-lg-12" >
+            <div class="col-lg-12 none-padding" >
                 <ul class="boxwallet">
                     <li v-for="(wallet,index) in wallets"
                         :key="index">
@@ -121,7 +121,7 @@
                     await this.getDataFromAPI(`${list_wallets[i]}`)
                     await this.wait(5000)
                 }
-
+                console.log(this.wallets)
 
             },
             checkForm() {
@@ -147,6 +147,18 @@
 </script>
 
 <style >
+    .none-padding{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .container-fluid {
+        background: #b0d1fb;
+
+    }
+    .boxwallet{
+        background: #b0d1fb;
+margin-bottom: 0px;
+    }
     .logo {
         width: 70%;
         padding:20px 25px;
@@ -223,5 +235,28 @@ background: #1f1d1d;
     .scroll-table{
         height:360px;
         overflow-y: auto;
+    }
+    .logo img {
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .btn-primary {
+        background-color: #1d7d33!important;
+        border-color: #1d7d33!important;
+    }
+    @media screen and (max-width: 767px){
+    .boxwallet li{
+        width:calc((100% / 2))
+    }
+
+
+    }
+    @media screen and (max-width: 600px){
+        .boxwallet li{
+            width: 100%!important;
+        }
     }
 </style>
